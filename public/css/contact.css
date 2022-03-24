@@ -1,0 +1,32 @@
+.contact {
+   text-align: center; 
+   font-size: large;
+   color:black ;
+   font-size: large;
+ 
+   
+}
+
+.adresse{
+
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.mail{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gps{
+    text-align: center;  
+    margin-bottom: 15px;
+}
+
+.map{
+    text-align: center;
+}
+.centretout{
+    text-align: center;
+}

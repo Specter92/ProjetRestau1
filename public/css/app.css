@@ -1,0 +1,98 @@
+@import "contact.css";
+@import "carte.css";
+@import "reservation.css";
+@import "index.css";
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(249, 249, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.logo {
+    margin-left: 55px;
+}
+
+
+a {
+    width: 15px;
+    display: flex;
+}
+header {
+   width: 100%;
+   border-bottom: solid black 1px;
+   padding: 25px;
+}
+ul {
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 105px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation a {
+    color: black;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ 
+}
+
+footer li {
+    color: white;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: solid 1px white;
+    width: auto;
+    padding: 20px 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icons-site {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icons-site img {
+    margin-left: 10px;
+}

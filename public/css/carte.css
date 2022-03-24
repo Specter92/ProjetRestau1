@@ -1,0 +1,14 @@
+.tout {
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+#item1 {
+    background-color: rgb(2, 2, 2);
+    grid-area: 2 / 1 / 2 / 4;
+    color:white ;
+    font-size: large;
+    margin-bottom: 15px;
+  }
+
